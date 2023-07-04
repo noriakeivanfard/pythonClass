@@ -2,9 +2,9 @@ number = float(input("enter number: "))
 if number < 0 :
     print('D')
 else :
-    if (number // 2) * 2 == number > 6 :
+    if number % 2 == 0 and number > 4 :
      print('A')
-    elif number < 4 :
+    elif number % 2 == 0 and number < 4 :
      print('B')
     else:
      print('c')
