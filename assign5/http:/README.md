@@ -10,3 +10,6 @@
 
 ![2 3](https://github.com/noriakeivanfard/pythonClass/assets/137643989/9ce0b3b2-1a4f-4169-8d6e-a125a78d2f4b)
 
+𝒓𝒔𝒕𝒓𝒊𝒑 , 𝒍𝒔𝒕𝒓𝒊𝒑
+
+![2 4](https://github.com/noriakeivanfard/pythonClass/assets/137643989/fea01e4a-85f6-4960-8af8-e092775e0476)
