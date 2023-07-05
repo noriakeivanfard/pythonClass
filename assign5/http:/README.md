@@ -18,4 +18,6 @@
 
 ![4444](https://github.com/noriakeivanfard/pythonClass/assets/137643989/24e6b87f-d347-4986-bec9-08897307eff9)
 
+𝒎𝒖𝒍𝒕𝒊𝒑𝒍𝒆 7
 
+![555](https://github.com/noriakeivanfard/pythonClass/assets/137643989/0cbd6f14-4c3a-462a-85ff-eb1c0cc3c176)
