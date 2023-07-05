@@ -23,4 +23,17 @@ print(x)
 
 #############################
 #rstrip
+txt = "     pizza    "
+x =  txt.rstrip()
+print("of all food", x, "is my favorite")
+
+
+print("_________")
+
+
+
+#lstrip
+txt = "     pizza     "
+x =  txt.lstrip()
+print("of all food", x, "is my favorite")
 
