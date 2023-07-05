@@ -17,4 +17,10 @@ print(x)
 
 ##############################
 #replace
+txt = "I am sad"
+x = txt.replace("sad", "happy")
+print(x)
+
+#############################
+#rstrip, lstrip
 
