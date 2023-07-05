@@ -1,10 +1,10 @@
-#title, istitle
+#title
 txt = "hello my beautiful word"
 x = txt.title()
 print(x)
 
 ##############################
-
+# istitle
 txt = "hello my beautiful word"
 x = txt.istitle()
 print(x)
@@ -22,5 +22,5 @@ x = txt.replace("sad", "happy")
 print(x)
 
 #############################
-#rstrip, lstrip
+#rstrip
 
