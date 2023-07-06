@@ -26,3 +26,9 @@
 
 ![6666](https://github.com/noriakeivanfard/pythonClass/assets/137643989/430fc8a5-2d11-4ac8-a3f0-f2615cfced6d)
 
+𝒆𝒗𝒆𝒏 𝒐𝒓 𝒐𝒅𝒅
+
+![333](https://github.com/noriakeivanfard/pythonClass/assets/137643989/6ffb2d03-616c-427b-bbdd-7308d7c31417)
+
+
+
