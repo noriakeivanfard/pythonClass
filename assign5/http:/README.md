@@ -21,3 +21,8 @@
 𝒎𝒖𝒍𝒕𝒊𝒑𝒍𝒆 7
 
 ![555](https://github.com/noriakeivanfard/pythonClass/assets/137643989/0cbd6f14-4c3a-462a-85ff-eb1c0cc3c176)
+
+𝒏𝒂𝒎𝒆𝒔
+
+![6666](https://github.com/noriakeivanfard/pythonClass/assets/137643989/430fc8a5-2d11-4ac8-a3f0-f2615cfced6d)
+
