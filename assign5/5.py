@@ -1,9 +1,6 @@
-number = int(input("enter number:"))
-m=number/7
+number = int(input("Enter a number: "))
 if number % 7 == 0:
-    print(f"{number} is multiple 7")
+    print("Yes")
 else:
-    print(f"{number} is not multiple 7 ")
-    number *= 7
-    number += 7
-    print(f"{number}Close to a multiple 7")
+    largest_multiple_of_seven = 7 * (number // 7 + 1)
+    print("largest multiple of seven ", largest_multiple_of_seven)
