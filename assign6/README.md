@@ -21,3 +21,7 @@
 𝒊𝒏𝒅𝒆𝒙
 
 ![1 2](https://github.com/noriakeivanfard/pythonClass/assets/137643989/0fbe24f9-6b34-46b1-ac3b-304b287c4db5)
+
+𝒊𝒏𝒔𝒆𝒓𝒕
+
+![1 3](https://github.com/noriakeivanfard/pythonClass/assets/137643989/0305a213-dd75-4caf-8365-31dade1617b8)
