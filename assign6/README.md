@@ -10,3 +10,8 @@
 
 ![44444](https://github.com/noriakeivanfard/pythonClass/assets/137643989/43d13eaf-5b4f-4ff2-98e9-223b80b4aba3)
 
+𝑺𝒆𝒏𝒕𝒆𝒏𝒄𝒆
+
+![5555](https://github.com/noriakeivanfard/pythonClass/assets/137643989/c5a89d6e-bd62-42e8-b7ec-30467b8f3870)
+
+
