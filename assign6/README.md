@@ -5,3 +5,8 @@
 𝒏𝒖𝒎𝒃𝒆𝒓 𝒍𝒊𝒔𝒕
 
 ![3333](https://github.com/noriakeivanfard/pythonClass/assets/137643989/d6bbb524-f751-4914-b265-7060aa1b8a5f)
+
+𝑩𝒂𝒌𝒆𝒓𝒚
+
+![44444](https://github.com/noriakeivanfard/pythonClass/assets/137643989/43d13eaf-5b4f-4ff2-98e9-223b80b4aba3)
+
