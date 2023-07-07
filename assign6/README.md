@@ -18,3 +18,6 @@
 
 ![Untitled](https://github.com/noriakeivanfard/pythonClass/assets/137643989/8f11255e-ae62-4995-95a8-9058c3c73103)
 
+𝒊𝒏𝒅𝒆𝒙
+
+![1 2](https://github.com/noriakeivanfard/pythonClass/assets/137643989/0fbe24f9-6b34-46b1-ac3b-304b287c4db5)
