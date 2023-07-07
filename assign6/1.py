@@ -25,3 +25,7 @@ print(names)
 ############################################
 
 #copy
+names = ['mamad','ali']
+
+x = names.copy()
+print(x)
