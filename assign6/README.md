@@ -25,3 +25,8 @@
 𝒊𝒏𝒔𝒆𝒓𝒕
 
 ![1 3](https://github.com/noriakeivanfard/pythonClass/assets/137643989/0305a213-dd75-4caf-8365-31dade1617b8)
+
+𝒄𝒐𝒑𝒚
+
+![1 4](https://github.com/noriakeivanfard/pythonClass/assets/137643989/b27036ef-4a05-490f-a229-f22107b4c473)
+
