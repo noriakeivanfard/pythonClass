@@ -8,7 +8,7 @@
 
 𝑩𝒂𝒌𝒆𝒓𝒚
 
-![44444](https://github.com/noriakeivanfard/pythonClass/assets/137643989/43d13eaf-5b4f-4ff2-98e9-223b80b4aba3)
+![1 44](https://github.com/noriakeivanfard/pythonClass/assets/137643989/9d800fc2-a7ab-483d-8421-72ee34003ae4)
 
 𝑺𝒆𝒏𝒕𝒆𝒏𝒄𝒆
 
