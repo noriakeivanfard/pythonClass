@@ -6,3 +6,6 @@
 
 ![22](https://github.com/noriakeivanfard/pythonClass/assets/137643989/ba89ef08-fa8d-43c0-bb0e-322124e1f455)
 
+𝑪𝒂𝒍𝒄𝒖𝒍𝒂𝒕𝒐𝒓 𝒖𝒑𝒅𝒂𝒕𝒆
+
+![666](https://github.com/noriakeivanfard/pythonClass/assets/137643989/c8e3eb63-612d-4492-b00e-1896c675afd7)
