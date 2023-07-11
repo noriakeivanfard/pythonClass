@@ -13,3 +13,8 @@
 ATM
 
 ![66666666](https://github.com/noriakeivanfard/pythonClass/assets/137643989/7dc0e44a-63d9-44ad-af46-c78fd1ce9c07)
+
+𝒑𝒂𝒍𝒊𝒏𝒅𝒓𝒐𝒎𝒆
+
+![2222](https://github.com/noriakeivanfard/pythonClass/assets/137643989/52ed60d4-41c5-44ba-a24c-6bb58518d5e7)
+
