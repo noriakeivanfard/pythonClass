@@ -9,3 +9,7 @@
 𝒕𝒘𝒐 𝒑𝒍𝒂𝒚𝒆𝒓 𝒈𝒂𝒎𝒆
 
 ![444](https://github.com/noriakeivanfard/pythonClass/assets/137643989/133b07f3-0167-4da4-ae18-0462a21cec91)
+
+𝑫𝒊𝒄𝒆
+
+![6 6](https://github.com/noriakeivanfard/pythonClass/assets/137643989/0718949a-29c3-4f1a-b360-088bd7c92d60)
