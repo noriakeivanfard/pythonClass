@@ -13,3 +13,7 @@
 𝑫𝒊𝒄𝒆
 
 ![6 6](https://github.com/noriakeivanfard/pythonClass/assets/137643989/0718949a-29c3-4f1a-b360-088bd7c92d60)
+
+𝒈𝒖𝒆𝒔𝒔𝒊𝒏𝒈 𝒏𝒖𝒎𝒃𝒆𝒓
+
+![game](https://github.com/noriakeivanfard/pythonClass/assets/137643989/c8251c44-d472-4b7d-a3ef-dc095406fd28)
