@@ -16,4 +16,4 @@
 
 𝒈𝒖𝒆𝒔𝒔𝒊𝒏𝒈 𝒏𝒖𝒎𝒃𝒆𝒓
 
-![game](https://github.com/noriakeivanfard/pythonClass/assets/137643989/c8251c44-d472-4b7d-a3ef-dc095406fd28)
+![Untitled](https://github.com/noriakeivanfard/pythonClass/assets/137643989/3139632f-6110-4d92-a9c3-c6eb33c561bc)
