@@ -13,7 +13,7 @@ if ask == 'c':
         computer = random.choice(r_p_s)
         user = input("rock(r) or paper(p) or scissors(s) \t") 
         if user == computer:
-           print(f"Both players selected {user}. It's a tie!")
+           print(f" player selected {user}. It's a equal!")
            n = n - 1
         elif user == "r":
             if computer == "s":
@@ -53,7 +53,7 @@ elif ask == 'f':
         user2 = input("rock(r) or paper(p) or scissors(s): Player 2\t") 
 
         if user == user2:
-           print(f"Both players selected {user}. It's a tie!")
+           print(f" players selected {user}. It's a equal!")
            n = n - 1
         elif user == "r":
             if user2 == "s":
