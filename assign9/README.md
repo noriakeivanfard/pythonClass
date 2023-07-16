@@ -13,3 +13,7 @@
 𝒍𝒊𝒔𝒕 𝒅𝒊𝒄𝒕𝒊𝒐𝒏𝒂𝒓𝒚
 
 ![T3](https://github.com/noriakeivanfard/pythonClass/assets/137643989/f94ccba2-105b-428f-851a-57aa02c1e363)
+
+𝒑𝒆𝒓𝒇𝒆𝒄𝒕 𝒏𝒖𝒎𝒃𝒆𝒓
+
+![T4](https://github.com/noriakeivanfard/pythonClass/assets/137643989/d8834116-a527-4189-8f7f-b7c5a804ca2b)
