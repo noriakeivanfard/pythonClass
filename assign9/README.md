@@ -9,3 +9,7 @@
 𝖗_𝖕_𝖘
 
 ![Untitled](https://github.com/noriakeivanfard/pythonClass/assets/137643989/8b49f335-23a7-4c8c-8617-12b1ed26f1c0)
+
+𝒍𝒊𝒔𝒕 𝒅𝒊𝒄𝒕𝒊𝒐𝒏𝒂𝒓𝒚
+
+![T3](https://github.com/noriakeivanfard/pythonClass/assets/137643989/f94ccba2-105b-428f-851a-57aa02c1e363)
