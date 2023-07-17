@@ -17,3 +17,8 @@
 𝒑𝒆𝒓𝒇𝒆𝒄𝒕 𝒏𝒖𝒎𝒃𝒆𝒓
 
 ![T4](https://github.com/noriakeivanfard/pythonClass/assets/137643989/d8834116-a527-4189-8f7f-b7c5a804ca2b)
+
+𝒒𝒓𝒄𝒐𝒅𝒆
+
+![qrcode 68008579](https://github.com/noriakeivanfard/pythonClass/assets/137643989/d03d9774-06b7-4395-901e-b18b488fda4f)
+
