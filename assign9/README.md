@@ -20,5 +20,5 @@
 
 𝒒𝒓𝒄𝒐𝒅𝒆
 
-![qrcode 68008579](https://github.com/noriakeivanfard/pythonClass/assets/137643989/d03d9774-06b7-4395-901e-b18b488fda4f)
+![qrcode 68012368](https://github.com/noriakeivanfard/pythonClass/assets/137643989/6d82ac15-af3f-43dd-9a2c-c9953ced3fef)
 
