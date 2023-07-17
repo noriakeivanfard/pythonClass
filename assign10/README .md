@@ -8,4 +8,4 @@
 
 𝒅𝒊𝒄𝒕𝒊𝒐𝒏𝒂𝒓𝒚
 
-![T7](https://github.com/noriakeivanfard/pythonClass/assets/137643989/e2ac49a8-6bd0-4c83-a55a-49fb04b6cf7a)
+![t111](https://github.com/noriakeivanfard/pythonClass/assets/137643989/4f5cbceb-a080-44c3-aa9b-1a486a9e4ce8)
