@@ -2,9 +2,13 @@
 
 ![HDSF](https://github.com/noriakeivanfard/pythonClass/assets/137643989/25eba3b0-e0d2-4e06-a6fa-c5266956f601)
 
-𝒕𝒖𝒓𝒕𝒍𝒆
+𝒕𝒖𝒓𝒕𝒍𝒆1
 
 ![T6](https://github.com/noriakeivanfard/pythonClass/assets/137643989/3385fd8e-896c-4fda-adda-746b8edbd43f)
+
+𝒕𝒖𝒓𝒕𝒍𝒆2
+
+![Untitled](https://github.com/noriakeivanfard/pythonClass/assets/137643989/f9f4435b-0494-470e-a983-36215a7b3807)
 
 𝒅𝒊𝒄𝒕𝒊𝒐𝒏𝒂𝒓𝒚
 
