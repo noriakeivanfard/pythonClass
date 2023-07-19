@@ -9,3 +9,7 @@
 𝑳𝑪𝑴
 
 ![LCM](https://github.com/noriakeivanfard/pythonClass/assets/137643989/cc9f1a0c-5951-48e8-aca7-f743c321c2df)
+
+𝒇𝒂𝒄𝒕𝒐𝒓𝒊𝒂𝒍
+
+![𝒇𝒂𝒄𝒕𝒐𝒓𝒊𝒂𝒍](https://github.com/noriakeivanfard/pythonClass/assets/137643989/e990cfbd-6838-400a-94be-f3a6dc7c84d3)
