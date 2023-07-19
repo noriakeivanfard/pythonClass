@@ -13,3 +13,7 @@
 𝒅𝒊𝒄𝒕𝒊𝒐𝒏𝒂𝒓𝒚
 
 ![t111](https://github.com/noriakeivanfard/pythonClass/assets/137643989/4f5cbceb-a080-44c3-aa9b-1a486a9e4ce8)
+
+𝑯𝒂𝒏𝒈 𝑴𝒂𝒏
+
+![Untitled](https://github.com/noriakeivanfard/pythonClass/assets/137643989/4a89acec-427e-48ca-8116-29c8748e91eb)
