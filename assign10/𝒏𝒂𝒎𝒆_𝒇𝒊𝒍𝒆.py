@@ -28,7 +28,7 @@ for n in names:
     for i in ("0","1","2","3","4","5","6","7","8","9"):
         c += n.count(i)
         if c > 3:
-            print(f"There are already three numbers available {name}")
+            print(f"There are already three numbers available {names}")
             f += 1
             break
 
