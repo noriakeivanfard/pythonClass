@@ -17,3 +17,7 @@
 𝑭𝒊𝒃𝒐𝒏𝒂𝒄𝒄𝒊
 
 ![f](https://github.com/noriakeivanfard/pythonClass/assets/137643989/b96ba101-02f2-40c5-91cf-12df0bd7df19)
+
+𝑬𝒒𝒖𝒂𝒕𝒊𝒐𝒏
+
+![Equation](https://github.com/noriakeivanfard/pythonClass/assets/137643989/2b926e63-56f4-43a1-915f-7d817af869f1)
