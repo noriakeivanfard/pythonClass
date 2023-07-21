@@ -21,3 +21,7 @@
 𝑬𝒒𝒖𝒂𝒕𝒊𝒐𝒏
 
 ![Equation](https://github.com/noriakeivanfard/pythonClass/assets/137643989/2b926e63-56f4-43a1-915f-7d817af869f1)
+
+𝑯𝒂𝒏𝒈 𝑴𝒂𝒏
+
+![Screenshot 2023-07-21 150611](https://github.com/noriakeivanfard/pythonClass/assets/137643989/d5a062e1-787f-4c70-81e2-ad9347dbe00c)
