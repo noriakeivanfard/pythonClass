@@ -13,3 +13,4 @@ def Equation(a , b , c ):
         print(x3)
 
 print(Equation(1,2,3 ))
+
