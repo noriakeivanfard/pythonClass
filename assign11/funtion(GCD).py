@@ -4,6 +4,6 @@ def GCD(a, b):
     else:
         return GCD(b, a % b)
     
-a = int(input("enter  first number: "))
-b = int(input("enter second  number: "))
+a = int(input("enter first number: "))
+b = int(input("enter second number: "))
 print("Result is:",GCD(a,b))
