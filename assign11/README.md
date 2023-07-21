@@ -26,6 +26,10 @@
 
 ![Screenshot 2023-07-21 150611](https://github.com/noriakeivanfard/pythonClass/assets/137643989/d5a062e1-787f-4c70-81e2-ad9347dbe00c)
 
+funtion(GCD)
+
+![BMM](https://github.com/noriakeivanfard/pythonClass/assets/137643989/defe9df5-d29a-4d0f-b44f-23e56f48247d)
+
 𝖗_𝖕_𝖘
 
 ![r_p_s](https://github.com/noriakeivanfard/pythonClass/assets/137643989/8b2deb32-497c-48dc-960b-5edf158e6856)
