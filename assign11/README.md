@@ -33,3 +33,7 @@ funtion(GCD)
 𝖗_𝖕_𝖘
 
 ![r_p_s](https://github.com/noriakeivanfard/pythonClass/assets/137643989/8b2deb32-497c-48dc-960b-5edf158e6856)
+
+𝒈𝒖𝒆𝒔𝒔𝒊𝒏𝒈 𝒏𝒖𝒎𝒃𝒆𝒓
+
+![Uploading gamer.png…]()
