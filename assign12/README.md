@@ -4,4 +4,4 @@
 
 𝑫𝒊𝒂𝒎𝒐𝒏𝒅
 
-[](https://upload.wikimedia.org/wikipedia/commons/5/56/Tiger.50.jpg)
+![diamond](https://github.com/noriakeivanfard/pythonClass/assets/137643989/6808ffb2-15cb-4661-b986-ea6eba97f697)
