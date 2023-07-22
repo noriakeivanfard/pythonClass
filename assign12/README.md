@@ -9,3 +9,7 @@
 𝑫𝒂𝒕𝒆
 
 ![date](https://github.com/noriakeivanfard/pythonClass/assets/137643989/da8e0018-0a76-40be-994f-42cc53891ebb)
+
+𝒏𝒖𝒎𝒃𝒆𝒓
+
+![number](https://github.com/noriakeivanfard/pythonClass/assets/137643989/a4d4c764-cada-4341-a9d7-4dbc44098b6f)
