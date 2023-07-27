@@ -1,29 +1,52 @@
-s_1 = 5
-m_1 = 12
+op=int(input("""
+1_sum
+2_minus
+3_multiplication
+4_Division
+which one?"""))
 
-s_2 = 25
-m_2 = 100
+for i in range(2):
+    s = int(input("enter number_s: "))
+    m = int(input("enter number_m: "))
+    if i == 0:
+        dct1  = {"s":s, "m":m}
+    else:
+        dct2 = {"s":s, "m":m}
 
-sum_answer_s = (s_1 * m_2) + (s_2 * m_1)
-sum_answer_m = m_1 * m_2
+def show(s,m):
+    print("  "+str(s)+ "\n-----\n  "+ str(m))
+    
+if op == 1:
+ def sum(m_1, m_2):
+    answer_s = (m_1["s"] * m_2["m"]) + (m_2["s"] * m_1["m"])
+    answer_m = m_1["m"] * m_2["m"]
+    return answer_s , answer_m
+ a , b = sum(dct1, dct2)
+ show(a,b)
+ 
+elif op == 2:
+ def minus(m_1, m_2):
+    answer_s = (m_1["s"] * m_2["m"]) - (m_2["s"] * m_1["m"])
+    answer_m = m_1["m"] * m_2["m"]
+    return answer_s , answer_m
+ a , b = minus(dct1, dct2)
+ show(a,b)
+ 
+elif op == 3:
+ def multiplication(m_1, m_2):
+    answer_s = m_1["s"] * m_2["s"]
+    answer_m = m_1['m'] * m_2['m']
+    return answer_s , answer_m
+ a , b = multiplication(dct1, dct2)
+ show(a,b)
 
-minus_answer_s = (s_1 * m_2) - (s_2 * m_1)
-minus_answer_m = m_1 * m_2
-
-multiplication_answer_s = s_1 * s_2
-multiplication_answer_s = m_1 * m_2
-
-#Division_answer_s = s_2, m_2[::-1]
-#Division_answer_m = s_1 and m_1 * Division_answer_s
-
-print( sum_answer_s,'\n ------ \n', sum_answer_m)
-
-print("________________")
-
-print(minus_answer_s,'\n ----- \n',minus_answer_m)
-
-print("________________")
-
-print(multiplication_answer_s , '\n ----- \n',multiplication_answer_s )
-#print(Division_answer_m)
-
+elif op == 4:
+ def Division(m_1, m_2):
+    if (m_2['m'] != 0 or m_2["s"] != 0):
+     answer_s = m_1["s"] * m_2['m']
+     answer_m = m_1['m'] * m_2["s"]
+     return answer_s , answer_m
+ a , b = Division(dct1, dct2)
+ show(a,b)
+else:
+     print("equal to 0") 
