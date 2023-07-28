@@ -15,4 +15,26 @@ class Teacher:
     def write_the_Students_name(): 
         pass 
 
-##############################################################################3
+##############################################################################
+
+class student():
+     # Properties
+     name = None
+     age = None
+     heir_color = None
+     eye_color = None
+     smart_student = None
+     
+     # Methods
+     def study():
+         pass
+     def Writing_homework():
+         pass 
+     def playing_game():
+         pass
+     def rest():
+         pass
+     def Listening_teacher():
+         pass
+
+##################################################################################
