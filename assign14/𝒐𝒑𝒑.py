@@ -1,4 +1,4 @@
-class Teacher:   
+class teacher:   
     # Properties
     name = None
     last_name = None
