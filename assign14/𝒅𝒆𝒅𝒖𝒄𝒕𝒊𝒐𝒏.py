@@ -1,3 +1,4 @@
+from colorama import Fore 
 class deduction:
     def __init__(self, dict1 , dict2):
     # Properties
@@ -19,7 +20,7 @@ class deduction:
      answer_m = self.m_1['m'] * self.m_2['m']
      return answer_s , answer_m
  
-    def div(self):
+    def Div(self):
      if (self.m_2['m'] != 0 or self.m_2["s"] != 0):
       answer_s = self.m_1["s"] * self.m_2['m']
       answer_m = self.m_1['m'] * self.m_2["s"]
@@ -29,10 +30,10 @@ op=int(input("""
 1_sum
 2_min
 3_mul
-4_div
-which one?"""))
+4_Div
+which one?"""+Fore.GREEN))
 
-dct1  = {}
+dct1 = {}
 dct2 = {}  
     
 for i in range(2):
@@ -57,5 +58,5 @@ elif op == 3:
     a , b = d.mul()
     show(a,b)
 elif op == 4:
-    a , b = d.div()
+    a , b = d.Div()
     show(a,b) 
