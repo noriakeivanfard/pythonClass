@@ -19,7 +19,7 @@ class deduction:
      answer_m = self.m_1['m'] * self.m_2['m']
      return answer_s , answer_m
  
-    def Div(self):
+    def div(self):
      if (self.m_2['m'] != 0 or self.m_2["s"] != 0):
       answer_s = self.m_1["s"] * self.m_2['m']
       answer_m = self.m_1['m'] * self.m_2["s"]
@@ -57,5 +57,5 @@ elif op == 3:
     a , b = d.mul()
     show(a,b)
 elif op == 4:
-    a , b = d.Div()
+    a , b = d.div()
     show(a,b) 
