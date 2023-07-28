@@ -38,3 +38,17 @@ class student():
          pass
 
 ##################################################################################
+
+class Course:
+    # Properties
+    name = None
+    age = None
+    title = None
+    intention = None
+    
+    # Methods
+    def beautiful_people():
+        pass
+    def ugly_people():
+        pass 
+    
