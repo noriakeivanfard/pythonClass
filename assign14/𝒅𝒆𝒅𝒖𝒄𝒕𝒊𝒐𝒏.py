@@ -29,7 +29,7 @@ op=int(input("""
 1_sum
 2_min
 3_mul
-4_Div
+4_div
 which one?"""))
 
 dct1  = {}
