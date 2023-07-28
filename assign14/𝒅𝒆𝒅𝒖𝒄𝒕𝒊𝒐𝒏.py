@@ -1,7 +1,3 @@
-def number(s,m):
-    d = {"s": s, "m": m}
-    return d
-
 class deduction:
     def __init__(self, dict1 , dict2):
     # Properties
@@ -39,27 +35,27 @@ which one?"""))
 dct1  = {}
 dct2 = {}  
     
-for i in range (1, 3):
-    s = int(input(f"enter s{i}: "))
-    m = int(input(f"enter m{i}: "))
-    if i == 1:
-        dct1  = number(s, m)
+for i in range(2):
+    s = int(input("enter number_s: "))
+    m = int(input("enter number_m: "))
+    if i == 0:
+        dct1  = {"s":s, "m":m}
     else:
-        dct2 = number(s, m) 
+        dct2 = {"s":s, "m":m}
+
+def show(a,b):
+    print("  "+str(a)+ "\n-----\n  "+ str(b))
  
-d = deduction(dct1, dct2)
+d = deduction(dct1, dct2) 
 if op == 1:
     a , b = d.sum()
-    print(a, "\n-----\n", b)
+    show(a,b)
 elif op == 2:
     a , b = d.min()
-    print(a, "\n-----\n", b)
+    show(a,b)
 elif op == 3:
     a , b = d.mul()
-    print(a, "\n-----\n", b)
+    show(a,b)
 elif op == 4:
-    try:
-        a , b = d.Div()
-        print(a, "\n-----\n", b)
-    except:
-        print(d.Div(dct1, dct2))  
+    a , b = d.Div()
+    show(a,b) 
