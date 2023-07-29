@@ -1,55 +1,49 @@
 class time:
-    def __init__(self,time1_dict,time2_dict):
+    def __init__(self,h1,h2,m1,m2,s1,s2):
     # Properties
-     self.h1 = time1_dict
-     self.h2 = time2_dict 
-     
-     self.m1 = time1_dict
-     self.m2 = time2_dict 
-     
-     self.s1 = time1_dict
-     self.s2 = time2_dict 
-    
+        self.hour_s = h1 + h2
+        self.minut_s = m1 + m2
+        self.second_s = s1 + s2
+        self.hour_m = h1 - h2
+        self.minut_m = m1 - m2
+        self.second_m = s1 - s2
+        self.op = op
     # Methods
     def sum(self):
-     h = self.h1["hour"] + self.h2["hour"]
-     m = self.m1["minut"] + self.m2["minut"]
-     s = self.s1["second"] + self.s2["second"]
-     return h , m , s 
-     
-    def min(self):    
-     h = self.h1["hour"] - self.h2["hour"]
-     m = self.m1["minut"] - self.m2["minut"]
-     s = self.s1["second"] - self.s2["second"]
-     return h , m , s 
+        while not(0 <= self.second_s <= 60 and 0 <= self.minut_s <= 60):
+            if self.second_s >= 60:
+                self.second_s -= ((self.second_s // 60) * 60)
+                self.minut_s += (self.second_s // 60)
+            if self.minut_s >= 60:
+                self.minut_s -= ((self.minut_s // 60) * 60)
+                self.hour_s += (self.minut_s // 60)
+ 
+    def min(self):
+            while not(0 <= self.second_m <= 60 and 0 <= self.minut_m <= 60):
+                if self.second_m < 0:
+                    self.minut_m -= 1
+                    self.second_m += 60
+                    if self.minut_m < 0:
+                        self.hour_m -= 1
+                        self.minut_m += 60
 
-hour = int(input("enter hours: "))
-minut = int(input("enter minuts: "))
-second = int(input("enter seconds: "))
-time1_dict = {"hour":hour,
-              "minut":minut,
-              "second":second}
+def show_time(h,m,s):
+    print(f"{h}:{m}:{s}")
 
-hour = int(input("enter hours: "))
-minut = int(input("enter minuts: "))
-second = int(input("enter seconds: "))
-time2_dict = {"hour":hour,
-              "minut":minut,
-              "second":second}
-
+time1 = input("enter time1: ")
+time2 = input("enter time2: ")
 op=int(input("""
 1_sum
 2_min
 which one?"""))
-
-def show_time(h,m,s):
-    print(f"{h}:{m}:{s}")  
-
-t = time(time1_dict,time2_dict)  
-
+time1 = time1.split(":")
+time2 = time2.split(":")
+for i in time1:
+ time1 = [eval(i)]
+for i in time2:
+ time2 = [eval(i)]
+t = time(time1[0], time1[1], time1[2], time2[0], time2[1], time2[2], op)
 if op == 1:
-    h , m , s= t.sum()
-    show_time(h,m,s)
+    t.sum()
 elif op == 2:
-    h , m , s= t.min()
-    show_time(h,m,s) 
+    t.min() 
