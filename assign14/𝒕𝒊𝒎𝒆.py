@@ -53,6 +53,8 @@ time = Time(int(t1[0]),
             int(t1[2]), 
             int(t2[2])) 
 
+
+
 if op == 1:
     h, m, s = time.sum()
     time.show(h, m, s)
