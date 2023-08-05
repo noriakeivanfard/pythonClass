@@ -1,10 +1,37 @@
-book name,book poet,book price,book publication
-
-Matilda,Roald Dahl,350,ofogh 
-spy school,Stuart Gibbs,140,porteghal
-Tin Tin,Herge,25,rayehe andishe 
-Harry Potter,J.K.Rowling,120,ketabsaraye tandis
-orange girl,Eustein Garder,35,ketabsaraye tandis
-Detective Sito,Antonio Itorbe,25,hopa
-Magic library,jims doty,100,chelchele
-girl drink moon,Kelly Barn hill,59,porteghal
+<?xml?>
+<books>
+   <name>Matilda</name>
+        <poet>Roald Dahl</poet>
+        <price>$350</price>
+        <publication>ofogh</publication>
+        <Available>15</Available>
+    <name>spy school</name>
+        <poet>Stuart Gibbs</poet>
+        <price>$140</price>
+        <publication>porteghal</publication>
+        <Available>50</Available>
+    <name>Tin Tin</name>
+        <poet>Herge</poet>
+        <price>$25</price>
+        <publication>rayehe andishe</publication>
+        <Available>55</Available>
+    <name>Harry Potter</name>
+        <poet>J.K.Rowling</poet>
+        <price>$150</price>
+        <publication>ketabsaraye tandis</publication>
+        <Available>30</Available>
+    <name>orange girl</name>
+        <poet>Eustein Garder</poet>
+        <price>$35</price>
+        <publication>ketabsaraye tandis</publication>
+        <Available>95</Available>  
+    <name>Detective Sito</name>
+        <poet>Antonio Itorbe</poet>
+        <price>$25</price>
+        <publication>hopa</publication>
+        <Available>100</Available>
+    <name>Magic library,</name>
+        <poet>ims doty</poet>
+        <price>$100</price>
+        <publication>chelchele</publication>
+        <Available>150</Available>
