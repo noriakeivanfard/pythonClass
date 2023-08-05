@@ -1,5 +1,6 @@
 import random
 numbers = 0
+num = 0
 list_number = []
 c = 0
 while (numbers != 6): 
@@ -8,6 +9,6 @@ while (numbers != 6):
     c += 1
     if numbers == 6:
         print(f"round {c} is win")
-    else:
-        print(f"round {c} is:", numbers)
+        num += numbers
+    print(f"round {c} is:", numbers)
 
