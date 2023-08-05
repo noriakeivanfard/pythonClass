@@ -5,7 +5,7 @@ cwd = os.getcwd()
 img = os.listdir()
 a = cwd+"/folder_images"
 os.mkdir(a) 
-list_images = ["jpeg", "heic", "png", "tiff", "gif", "jpeg", "raw"]
+list_images = ["jpg", "heic", "png", "tiff", "gif", "jpeg", "raw"]
 
 for i in img:
     if len(i.split(".")) > 1:
