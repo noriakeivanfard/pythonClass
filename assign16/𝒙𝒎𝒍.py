@@ -8,5 +8,5 @@ for element in root.iter('element'):
     print(element.text)
 
 new_element = ET.SubElement(root, 'new_element')
-new_element.text = 'Hello World'
-tree.write('output.xml') 
+new_element.text = 'book'
+tree.write('output.xml')
