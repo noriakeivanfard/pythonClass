@@ -1,23 +1,30 @@
 import pyttsx3
-engine = pyttsx3.init()
-engine.say("please type your str1")
-engine.runAndWait()
+import gtts
+S = pyttsx3.init()
+S.say("please type your str1")
+S.runAndWait()
 str_1 = input("enter your str1: ")
-engine.say("please type your str2")
-engine.runAndWait()
+S.say("please type your str2")
+S.runAndWait()
 str_2 = input("enter your str2: ")
-engine.say("please type your str3")
-engine.runAndWait()
-str_3 = input("enter your str_3: ")
+S.say("please type your str3")
+S.runAndWait()
+str_3 = input("enter your str3: ")
 if len(str_1) > len(str_2) > len(str_3):
     Result = str_1
-    engine.say(f" The longest string{str_1}")
-    engine.runAndWait()
+    S.say(f" The longest string{str_1}")
+    S.runAndWait()
+    x = gtts.gTTS(str_1,lang="en",slow = False)
+    x.save("sound.mp3")
 elif len(str_2) > len(str_1) > len(str_3):
     Result = str_2
-    engine.say(f" The longest string{str_2}")
-    engine.runAndWait()
+    S.say(f" The longest string{str_2}")
+    S.runAndWait()
+    x = gtts.gTTS(str_2,lang="en",slow = False)
+    x.save("sound.mp3")
 elif len(str_3) > len(str_1) > len(str_2):
     Result = str_3
-    engine.say(f" The longest string{str_3}")
-    engine.runAndWait() 
+    S.say(f" The longest string{str_3}")
+    S.runAndWait()  
+    x = gtts.gTTS(str_3,lang="en",slow = False)
+    x.save("sound.mp3") 
