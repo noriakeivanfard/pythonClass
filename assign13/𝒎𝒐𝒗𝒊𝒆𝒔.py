@@ -1,4 +1,4 @@
-txt = open("movies.txt", "r")
+txt = open(r"D:/NOORIA/computer/assign13/movies.txt")
 dataa = txt.readlines()
 dictt = {}
 
@@ -8,14 +8,14 @@ op=int(input("""
 3_five movies with the highest scores
 4_Movies in alphabetical order
 5_exit
-which one?"""))
+which one?""")) 
 
 def read_data():
   for i in dataa:
-      data = i.rstrip()
-      name, IMDB = data.split("  ")
+      data_ = i.rstrip()
+      name, IMDB = data_.split("  ")
       dictt[name] = IMDB
-  return dictt
+  return dictt  
 
 def show_add(dictt):
   N = input("enter name of movie: ")
@@ -83,4 +83,4 @@ elif op == 3:
 which one?""")) 
   
 elif op == 4:
-      exit_(dictt)  
+     exit_(dictt) 
