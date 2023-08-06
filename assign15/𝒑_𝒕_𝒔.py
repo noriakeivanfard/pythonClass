@@ -1,6 +1,4 @@
 class Pyramid:
-    # Properties
-    radius = None
     def __init__(self, s1):
         self.radius = s1
     def __init__(self, s2):
