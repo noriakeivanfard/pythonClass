@@ -27,11 +27,11 @@ def show_movies(dictt):
                 print(i, dictt[i])
 
 def show_imdb(dict):
-    s_dict = sorted(dict.values(), reverse=True)  
+    diict = sorted(dict.values(), reverse=True)  
     for i in range(5):
         for j in dict.keys():
-            if dict[j] == s_dict[i]:
-                print(s_dict[i], j)
+            if dict[j] == diict[i]:
+                print(dict[i], j)
 
 def exit_(dict):
     file = open()
