@@ -1,23 +1,23 @@
-from math import pi , pow
+import math
 class Circle:
     # Properties
     radius = None
     def __init__(self, r):
         self.radius = r
-        
-    def set_radius(self, r):
-        self.radius = r
 
     def Area(self):
-        return pow(self.radius , 2) * pi
+        return (self.radius ** 2) * math.pi
 
     def Perimeter(self):
-        return 2 * self.radius * pi 
+        return (2 * self.radius) * math.pi 
     
-class sphere(Circle):
+class Sphere(Circle):
         def __init__ (self, r):
-            self.radius = r
-        def set_radius(self, r):
-            self.radius = r
+         super().__init__(r)
+              
         def Area(self):
-            return pow(self.radius*pi*4) 
+            return (self.radius**2) * math.pi * 4
+        
+circle = Circle(3)
+print(circle.Area())
+shphere = Sphere(3) 
