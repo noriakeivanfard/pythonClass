@@ -24,13 +24,11 @@ imageio2
 
 ![imageio2](https://github.com/noriakeivanfard/pythonClass/assets/137643989/8bcf1cfe-ff04-4513-b8a6-903bf7c45bc1)
 
-𝒄𝒊𝒓𝒄𝒍𝒆 𝒂𝒏𝒅 𝒔𝒑𝒉𝒆𝒓𝒆
-
-
-
 imageio3
 
 ![imageio3](https://github.com/noriakeivanfard/pythonClass/assets/137643989/7b5c0582-3a38-4398-b7d0-94fa33d52e3a)
 
 ________________________________________________________________________________________________________________________
+
+𝒄𝒊𝒓𝒄𝒍𝒆 𝒂𝒏𝒅 𝒔𝒑𝒉𝒆𝒓𝒆
 
