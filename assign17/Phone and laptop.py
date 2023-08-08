@@ -4,9 +4,8 @@ conn = sqlite3.connect('mydata.db')
 
 c = conn.cursor()
 
-
 c.execute("""
-    CREATE TABLE customers (
+    CREATE TABLE customers(
         brand TEXT,
         name TEXT,
         year TEXT,
@@ -32,15 +31,14 @@ c.executemany("INSERT INTO customers VALUES (?, ?, ?, ?, ?, ?, ?)", many_custome
 
 c.execute("SELECT * FROM customers")
 
-u_itame = c.fetchmany(2)
-
-c.execute("SELECT * FROM customers WHERE year LIKE  '%2020'")
+c.execute("SELECT * FROM customers WHERE year LIKE  '%2017'")
 
 itames = c.fetchall()
 
 for i in itames:
     print(i)
-
+    
+print('________________________________________________________________________________')
 c.execute("UPDATE customers SET brand = 'Xiaomi' WHERE brand = 'Nokia'")
 
 c.execute("SELECT * FROM customers")
@@ -49,15 +47,50 @@ itames = c.fetchall()
 for i in itames:
     print(i)
 
-itames = c.fetchall()
-for i in itames:
-    print(i)
 
 c.execute("DROP TABLE customers")
 
 itames = c.fetchall()
 for i in itames:
     print(i)
+    
+
+print("_________________________________________________________________")
+c.execute("""
+    CREATE TABLE customers(
+        brand TEXT,
+        name TEXT,
+        cpu TEXT,
+        ram TEXT,
+        sdd TEXT,
+        os TEXT
+    )
+""") 
+many_customers = [('Vivobook E410MA-BV1517', '14 inch Asus', '30',  '4GB RAM', '256GB', 'Windows'), 
+                  ('Microsoft inches', '12.4 Microsoft inches', '50', '4GB RAM',  '64GB', 'Windows'), 
+                  ('Vivobook R465EA-EB1592', '14.1 inch Asus', '30', '4GB RAM', '512GB', 'Windows'),
+                  ('Legion 5 15IAH7H-i7 16GB 1SSD RTX 3060', '15 inch Lenovo', 'Core i7', '16GB RAM', '1 terabyte', 'Windows'),
+                  ('Victus 15-FA0031DX', '15.6 Inch HP', '25', '8GB RAM', '512GB', 'Windows')]
+
+c.executemany("INSERT INTO customers VALUES (?, ?, ?, ?, ?, ?)", many_customers) 
+
+c.execute("SELECT * FROM customers")
+itames = c.fetchall()
+
+for i in itames:
+    print(i)
+
+c.execute("DELETE FROM customers WHERE cpu = '30'")
+
+print("______________________________________________________________")
+c.execute("SELECT * FROM media ORDER BY imdb DESC")
+lap = c.fetchall()
+for i in range(5):
+    try:
+        print(lap[i])
+    except:
+            pass
+print("_________________________________________________________________")
 
 conn.commit()
 
