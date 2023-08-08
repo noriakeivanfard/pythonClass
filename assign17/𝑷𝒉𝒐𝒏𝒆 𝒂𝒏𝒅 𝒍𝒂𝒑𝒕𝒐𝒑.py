@@ -80,7 +80,7 @@ itames = c.fetchall()
 for i in itames:
     print(i)
 
-c.execute("DELETE FROM customers WHERE cpu = '30'")
+c.execute("DELETE FROM customers WHERE cpu == '30'")
 
 print("______________________________________________________________")
 c.execute("SELECT * FROM media ORDER BY imdb DESC")
