@@ -1,17 +1,4 @@
-import sqlite3
-
-txt = open(r"D:/NOORIA/computer/assign17/movies.txt" ,"r")
-dataa = txt.readlines()
-dictt = {}
-
-for film in dataa:
-  data_ = film.rstrip()
-  name, IMDB = data_.split("  ")
-  dictt[name] = IMDB
-print(dictt)
-
-conne = sqlite3.connect("movies.db")
-c = conne.cursor()
+import sqlite3 
 
 op=int(input("""
 1_add movie
@@ -20,13 +7,28 @@ op=int(input("""
 4_exit
 which one?""")) 
 
+conne = sqlite3.connect("movies.db")
+c = conne.cursor()
 
 c.execute("""
     CREATE TABLE media (
              name TEXT,
              imdb TEXT
-    ) 
+    )
  """)
+
+many_customers = [("Extraordinary you", "9.2"),
+                  ("School 2015", "7.6"),
+                   ("True Beauty", "9.8"),
+                    ("snowdrop", "8.8"),
+                    ("goblin", "9.4"),
+                    ("Lock and key", "7.4"),
+                    ("Anne Shirley", "8.3"),
+                    ("Harry Potter", "7"),
+                    ("Mister Bean", "6.8"),
+                    ("See", "7.6")]
+
+c.executemany("INSERT INTO customers VALUES (?, ?)", many_customers)
 
 def show_add():
   name = input("enter name of movie: ")
