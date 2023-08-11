@@ -84,7 +84,6 @@ _exit
 which one?""")) 
 
 elif op == 3:         
-  
   show_imdb() 
   ask = input("do you want to try again?(y, n):")
   if ask == "n":
