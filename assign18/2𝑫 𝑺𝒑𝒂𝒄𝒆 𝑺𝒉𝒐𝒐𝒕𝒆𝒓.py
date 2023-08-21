@@ -12,67 +12,24 @@ class Tir(arcade.Sprite):
         self.center_y = gamer.center_y
         self.speed = s
         self.angle = a
+        self.change_x = 0
+        self.change_y = 1
           
     def move(self):
-        if self.angle == 90:
+        if self.angle == 270 or self.angle == -90:
             self.center_y += self.speed
-        elif self.angle == -90:
+        elif self.angle == -270 or self.angle == 90:
             self.center_y -= self.speed
 
-class Space_shooter(arcade.Sprite):
-    def __init__(self, game_board, img1="img/player_1.png"):
-        super().__init__(img1)
-        self.center_y = 70
-        self.center_x = game_board.width/2
-        self.width = 80
-        self.height = 80
-        self.speed = 5
-        tir = 90
-        self.tir = tir
-        self.Game_width = game_board.width
-        self.Tir_list = []
-        self.hearts = []
-        
-    def update_jon(self, y=25, x = 25):
-        for i in range(3):
-            new_heart = Heart(x,y)
-            self.hearts.append(new_heart)
-            x += 30
-            
-    def move(self):
-        if self.change_x == -1:
-            if self.center_x > 20:
-                self.center_x -= self.speed
-        elif self.change_x == 1:
-            if self.center_x < self.Game_width-20:
-                self.center_x += self.speed
-                
-    def fire(self):
-        new_bullet = Tir(self, self.tir, SPEED)
-        self.Tir_list.append(new_bullet)
-        
-class Heart(arcade.Sprite):
-    def __init__(self,x,y):
-        super().__init__("img/Heart.png")
-        self.center_x = x
-        self.center_y = y
-        self.width = 50
-        self.height = 50
-
-class Space_shoorer2(arcade.Sprite):
-    def __init__(self, game, img2="img/player_2.png"):
+class Space_shoorer(arcade.Sprite):
+    def __init__(self, game, img2="img/player_1.png"):
         super().__init__(img2)
-        self.center_x = 300
-        self.center_y = game.height/1.1
+        self.center_y = 70
+        self.center_x = SCREEN_WIDTH/2
         self.width = 80
         self.height = 80
         self.speed = 4
-        tir = 90
-        self.tir = tir
-        y = 70
-        self.center_y = y
-        a = 0
-        self.angle = a
+        self.angle = 0
         self.Game_width = game.width
         self.Tir_list = []
         self.hearts = []
@@ -92,7 +49,7 @@ class Space_shoorer2(arcade.Sprite):
                 self.center_x += self.speed
                 
     def fire(self):
-        new_tir = Tir(self, self.tir, SPEED)
+        new_tir = Tir(self, 270, SPEED)
         self.Tir_list.append(new_tir)
         
 class Heart(arcade.Sprite):
@@ -103,21 +60,53 @@ class Heart(arcade.Sprite):
         self.width = 50
         self.height = 50
 
+class Space_shooter2(arcade.Sprite):
+    def __init__(self, game_board, img1="img/player_2.png"):
+        super().__init__(img1)
+        self.center_y = 444
+        self.center_x = SCREEN_WIDTH/2
+        self.width = 80
+        self.height = 80
+        self.change_x = 0
+        self.change_y = 0
+        self.speed = 5
+        self.Game_width = game_board.width
+        self.Tir_list = []
+        self.hearts = []
+        
+    def update_jon(self, y=25, x = 25):
+        for i in range(3):
+            new_heart = Heart(x,y)
+            self.hearts.append(new_heart)
+            x += 30
+            
+    def move(self):
+        if self.change_x == 1:
+            if self.center_x < self.Game_width-20:
+                self.center_x += self.speed
+        elif self.change_x == -1:
+            if self.center_x > 20:
+                self.center_x -= self.speed
+                
+    def fire(self):
+        new_tir = Tir(self, 90, SPEED)
+        self.Tir_list.append(new_tir)
+
 class MyGame(arcade.Window):
     def __init__(self, w, h):
         super().__init__(w, h)
         self.background = arcade.load_texture("img/background.png")
-        self.player_1 = Space_shooter(self)
-        self.player_2 = Space_shoorer2(self)
+        self.player_1 = Space_shoorer(self)
+        self.player_2 = Space_shooter2(self)
         self.player_1.update_jon()
         self.player_2.update_jon(SCREEN_HEIGHT-25)
         self.s = "s"
 
     def on_draw(self):
         arcade.start_render()
+        arcade.draw_lrwh_rectangle_textured(0,0,self.width,self.height,self.background)
         self.player_1.draw()
         self.player_2.draw()
-        arcade.draw_lrwh_rectangle_textured(0,0,self.width,self.height,self.background)
         for tir in self.player_1.Tir_list:
             tir.draw()
         for tir in self.player_2.Tir_list:
@@ -149,8 +138,8 @@ class MyGame(arcade.Window):
                 self.player_2.change_x = -1
             elif key == arcade.key.D:
                 self.player_2.change_x = 1
-            elif key == arcade.key.X:
-                self.player_2.fire()
+            elif key == arcade.key.DOWN:
+                self.player_2.fire() 
             
     def on_update(self, delta_time):
         if self.s == "g":
