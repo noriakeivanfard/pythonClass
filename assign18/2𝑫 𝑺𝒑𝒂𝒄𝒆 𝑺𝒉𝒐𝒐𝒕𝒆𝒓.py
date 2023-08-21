@@ -77,7 +77,7 @@ class Space_shoorer2(arcade.Sprite):
         self.Tir_list = []
         self.hearts = []
         
-    def update_jon(self, y = 25,  x = 25):
+    def update_jon(self, y = 25, x = 25):
         for i in range(3):
             new_heart = Heart(x,y)
             self.hearts.append(new_heart)
@@ -128,9 +128,9 @@ class MyGame(arcade.Window):
             heart.draw()
             
     def on_key_release(self, key, modifiers):
-        if key == arcade.key.A or key == arcade.key.D:
+        if key == arcade.key.RIGHT or key == arcade.key.LEFT:
             self.player_1.change_x = 0
-        if key == arcade.key.J or key == arcade.key.L:
+        if key == arcade.key.A or key == arcade.key.D:
             self.player_2.change_x = 0
         
     def on_key_press(self,key, modifiers):
