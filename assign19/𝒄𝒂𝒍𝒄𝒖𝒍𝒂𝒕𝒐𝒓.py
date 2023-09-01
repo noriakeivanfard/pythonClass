@@ -31,9 +31,9 @@ def stylesheet():
     main_window.Button_dot.setStyleSheet(''' QPushButton {font:  700 italic 14pt "Segoe UI";background-color: rgb(0, 170, 127);color:  rgb(6, 6, 6);}''')
 
 def num(x):
-    text = main_window.line_edit.text()
-    new_text = text + x 
-    main_window.line_edit.setText(new_text)
+    num_1 = main_window.line_edit.text()
+    num_2 = num_1 + n 
+    main_window.line_edit.setText(num_2)
        
 def cos():
     num_1 = main_window.line_edit.text()
