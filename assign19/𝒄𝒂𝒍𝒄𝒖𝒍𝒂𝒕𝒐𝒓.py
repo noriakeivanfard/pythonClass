@@ -3,7 +3,8 @@ from functools import partial
 from PySide6.QtWidgets import QApplication
 from PySide6.QtUiTools import QUiLoader
 
-s = 0
+num_1 = 0
+num_2 = 0
 
 def stylesheet():
     main_window.Button_0.setStyleSheet(''' QPushButton {font: 700 italic 14pt "Segoe UI";background-color:rgb(0, 85, 0);color: rgb(255, 255, 255);}''')
