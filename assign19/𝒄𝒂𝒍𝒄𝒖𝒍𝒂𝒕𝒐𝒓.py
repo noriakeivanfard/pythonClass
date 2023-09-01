@@ -30,7 +30,7 @@ def stylesheet():
     main_window.Button_mul.setStyleSheet(''' QPushButton {font:  700 italic 14pt "Segoe UI";background-color: rgb(0, 170, 127);color:  rgb(6, 6, 6);}''')
     main_window.Button_dot.setStyleSheet(''' QPushButton {font:  700 italic 14pt "Segoe UI";background-color: rgb(0, 170, 127);color:  rgb(6, 6, 6);}''')
 
-def num(x):
+def num(n):
     num_1 = main_window.line_edit.text()
     num_2 = num_1 + n 
     main_window.line_edit.setText(num_2)
