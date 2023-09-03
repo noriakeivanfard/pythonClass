@@ -3,7 +3,7 @@ from functools import partial
 from PySide6.QtWidgets import QApplication
 from PySide6.QtUiTools import QUiLoader
 
-op = None
+op = 0
 num_1 = 0
 num_2 = 0
 
