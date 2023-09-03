@@ -8,34 +8,109 @@ num_1 = 0
 num_2 = 0
 
 def stylesheet():
-    main_window.Button_0.setStyleSheet(''' QPushButton {font: 700 italic 14pt "Segoe UI";background-color:rgb(0, 85, 0);color: rgb(255, 255, 255);}''')
-    main_window.Button_1.setStyleSheet(''' QPushButton {font: 700 italic 14pt "Segoe UI";background-color:rgb(0, 85, 0);color: rgb(255, 255, 255);}''')
-    main_window.Button_2.setStyleSheet(''' QPushButton {font: 700 italic 14pt "Segoe UI";background-color:rgb(0, 85, 0);color: rgb(255, 255, 255);}''')
-    main_window.Button_3.setStyleSheet(''' QPushButton {font: 700 italic 14pt "Segoe UI";background-color:rgb(0, 85, 0);color: rgb(255, 255, 255);}''')
-    main_window.Button_4.setStyleSheet(''' QPushButton {font: 700 italic 14pt "Segoe UI";background-color:rgb(0, 85, 0);color: rgb(255, 255, 255);}''')
-    main_window.Button_5.setStyleSheet(''' QPushButton {font: 700 italic 14pt "Segoe UI";background-color:rgb(0, 85, 0);color: rgb(255, 255, 255);}''')
-    main_window.Button_6.setStyleSheet(''' QPushButton {font: 700 italic 14pt "Segoe UI";background-color:rgb(0, 85, 0);color: rgb(255, 255, 255);}''')
-    main_window.Button_7.setStyleSheet(''' QPushButton {font: 700 italic 14pt "Segoe UI";background-color:rgb(0, 85, 0);color: rgb(255, 255, 255);}''')
-    main_window.Button_8.setStyleSheet(''' QPushButton {font: 700 italic 14pt "Segoe UI";background-color:rgb(0, 85, 0);color: rgb(255, 255, 255);}''')
-    main_window.Button_9.setStyleSheet(''' QPushButton {font: 700 italic 14pt "Segoe UI";background-color:rgb(0, 85, 0);color: rgb(255, 255, 255);}''')
+    main_window.Button_0.setStyleSheet('''QPushButton {font: 700 italic 14pt "Segoe UI";
+                                       background-color:rgb(0, 85, 0);
+                                       color: rgb(255, 255, 255);}''')
+    
+    main_window.Button_1.setStyleSheet('''QPushButton {font: 700 italic 14pt "Segoe UI";
+                                       background-color:rgb(0, 85, 0);
+                                       color: rgb(255, 255, 255);}''')
+    
+    main_window.Button_2.setStyleSheet('''QPushButton {font: 700 italic 14pt "Segoe UI";
+                                       background-color:rgb(0, 85, 0);
+                                       color: rgb(255, 255, 255);}''')
+    
+    main_window.Button_3.setStyleSheet('''QPushButton {font: 700 italic 14pt "Segoe UI";
+                                       background-color:rgb(0, 85, 0);
+                                       color: rgb(255, 255, 255);}''')
+    
+    main_window.Button_4.setStyleSheet('''QPushButton {font: 700 italic 14pt "Segoe UI";
+                                       background-color:rgb(0, 85, 0);
+                                       color: rgb(255, 255, 255);}''')
+    
+    main_window.Button_5.setStyleSheet('''QPushButton {font: 700 italic 14pt "Segoe UI";
+                                       background-color:rgb(0, 85, 0);
+                                       color: rgb(255, 255, 255);}''')
+    
+    main_window.Button_6.setStyleSheet('''QPushButton {font: 700 italic 14pt "Segoe UI";
+                                       background-color:rgb(0, 85, 0);
+                                       color: rgb(255, 255, 255);}''')
+    
+    main_window.Button_7.setStyleSheet('''QPushButton {font: 700 italic 14pt "Segoe UI";
+                                       background-color:rgb(0, 85, 0);
+                                       color: rgb(255, 255, 255);}''')
+    
+    main_window.Button_8.setStyleSheet('''QPushButton {font: 700 italic 14pt "Segoe UI";
+                                       background-color:rgb(0, 85, 0);
+                                       color: rgb(255, 255, 255);}''')
+    
+    main_window.Button_9.setStyleSheet('''QPushButton {font: 700 italic 14pt "Segoe UI";
+                                       background-color: rgb(0, 85, 0);
+                                       color: rgb(255, 255, 255);}''')
 
-    main_window.Button_sqrt.setStyleSheet(''' QPushButton {font: 700 italic 14pt "Segoe UI";";background-color: rgb(48, 124, 0);color: rgb(6, 6, 6);}''')
-    main_window.Button_cos.setStyleSheet(''' QPushButton {font:  700 italic 14pt "Segoe UI";;background-color:  rgb(48, 124, 0);color: rgb(6, 6, 6);}''')
-    main_window.Button_tan.setStyleSheet(''' QPushButton {font:  700 italic 14pt "Segoe UI";;background-color:  rgb(48, 124, 0);color: rgb(6, 6, 6);}''')
-    main_window.Button_cot.setStyleSheet(''' QPushButton {font:  700 italic 14pt "Segoe UI";;background-color:  rgb(48, 124, 0);color: rgb(6, 6, 6);}''')
-    main_window.Button_abs.setStyleSheet(''' QPushButton {font:  700 italic 14pt "Segoe UI";;background-color:  rgb(48, 124, 0);color: rgb(6, 6, 6);}''')
-    main_window.Button_fac.setStyleSheet(''' QPushButton {font:  700 italic 14pt "Segoe UI";;background-color:  rgb(48, 124, 0);color: rgb(6, 6, 6);}''')
-    main_window.Button_mod.setStyleSheet(''' QPushButton {font:  700 italic 14pt "Segoe UI";;background-color:  rgb(48, 124, 0);color: rgb(6, 6, 6);}''')
-    main_window.Button_sqrt.setStyleSheet(''' QPushButton {font:  700 italic 14pt "Segoe UI";;background-color:  rgb(48, 124, 0);color: rgb(6, 6, 6);}''')
+    main_window.Button_sqrt.setStyleSheet('''QPushButton {font: 700 italic 14pt "Segoe UI";
+                                          background-color: rgb(48, 124, 0);
+                                          color: rgb(6, 6, 6);}''')
+    
+    main_window.Button_cos.setStyleSheet('''QPushButton {font:  700 italic 14pt "Segoe UI";
+                                         ;background-color: rgb(48, 124, 0);
+                                         color: rgb(6, 6, 6);}''')
+    
+    main_window.Button_tan.setStyleSheet('''QPushButton {font: 700 italic 14pt "Segoe UI";
+                                         background-color: rgb(48, 124, 0);
+                                         color: rgb(6, 6, 6);}''')
+    
+    main_window.Button_cot.setStyleSheet('''QPushButton {font:  700 italic 14pt "Segoe UI";
+                                         background-color:  rgb(48, 124, 0);
+                                         color: rgb(6, 6, 6);}''')
+    
+    main_window.Button_abs.setStyleSheet('''QPushButton {font:  700 italic 14pt "Segoe UI";
+                                         background-color:  rgb(48, 124, 0);
+                                         color: rgb(6, 6, 6);}''')
+    
+    main_window.Button_fac.setStyleSheet('''QPushButton {font:  700 italic 14pt "Segoe UI";
+                                         background-color:  rgb(48, 124, 0);
+                                         color: rgb(6, 6, 6);}''')
+    
+    main_window.Button_mod.setStyleSheet('''QPushButton {font:  700 italic 14pt "Segoe UI";
+                                         background-color:  rgb(48, 124, 0);
+                                         color: rgb(6, 6, 6);}''')
+    
+    main_window.Button_sqrt.setStyleSheet('''QPushButton {font:  700 italic 14pt "Segoe UI";
+                                          background-color:  rgb(48, 124, 0);
+                                          color: rgb(6, 6, 6);}''')
 
-    main_window.Button_sum.setStyleSheet(''' QPushButton {font:  700 italic 14pt "Segoe UI";background-color: rgb(0, 170, 127);color:  rgb(6, 6, 6);}''')
-    main_window.Button_min.setStyleSheet(''' QPushButton {font:  700 italic 14pt "Segoe UI";background-color: rgb(0, 170, 127);color:  rgb(6, 6, 6);}''')
-    main_window.Button_div.setStyleSheet(''' QPushButton {font:  700 italic 14pt "Segoe UI";background-color: rgb(0, 170, 127);color:  rgb(6, 6, 6);}''')
-    main_window.Button_eql.setStyleSheet(''' QPushButton {font:  700 italic 14pt "Segoe UI";background-color: rgb(0, 170, 127);color:  rgb(6, 6, 6);}''')
-    main_window.Button_mul.setStyleSheet(''' QPushButton {font:  700 italic 14pt "Segoe UI";background-color: rgb(0, 170, 127);color:  rgb(6, 6, 6);}''')
-    main_window.Button_dot.setStyleSheet(''' QPushButton {font:  700 italic 14pt "Segoe UI";background-color: rgb(0, 170, 127);color:  rgb(6, 6, 6);}''')
-    main_window.Button_pow.setStyleSheet(''' QPushButton {font:  700 italic 14pt "Segoe UI";background-color: rgb(0, 170, 127);color:  rgb(6, 6, 6);}''')
-    main_window.Button_pi.setStyleSheet(''' QPushButton {font:  700 italic 14pt "Segoe UI";background-color: rgb(0, 170, 127);color:  rgb(6, 6, 6);}''')
+    main_window.Button_sum.setStyleSheet('''QPushButton {font:  700 italic 14pt "Segoe UI";
+                                         background-color: rgb(0, 170, 127);
+                                         color:  rgb(6, 6, 6);}''')
+    
+    main_window.Button_min.setStyleSheet('''QPushButton {font:  700 italic 14pt "Segoe UI";
+                                         background-color: rgb(0, 170, 127);
+                                         color:  rgb(6, 6, 6);}''')
+    
+    main_window.Button_div.setStyleSheet('''QPushButton {font:  700 italic 14pt "Segoe UI";
+                                         background-color: rgb(0, 170, 127);
+                                         color:  rgb(6, 6, 6);}''')
+    
+    main_window.Button_eql.setStyleSheet('''QPushButton {font:  700 italic 14pt "Segoe UI";
+                                         background-color: rgb(0, 170, 127);
+                                         color:  rgb(6, 6, 6);}''')
+    
+    main_window.Button_mul.setStyleSheet('''QPushButton {font:  700 italic 14pt "Segoe UI";
+                                         background-color: rgb(0, 170, 127);
+                                         color:  rgb(6, 6, 6);}''')
+    
+    main_window.Button_dot.setStyleSheet('''QPushButton {font:  700 italic 14pt "Segoe UI";
+                                         background-color: rgb(0, 170, 127);
+                                         color:  rgb(6, 6, 6);}''')
+    
+    main_window.Button_pow.setStyleSheet('''QPushButton {font:  700 italic 14pt "Segoe UI";
+                                         background-color: rgb(0, 170, 127);
+                                         color:  rgb(6, 6, 6);}''')
+    
+    main_window.Button_pi.setStyleSheet('''QPushButton {font:  700 italic 14pt "Segoe UI";
+                                        background-color: rgb(0, 170, 127);
+                                        color:  rgb(6, 6, 6);}''')
 
 def num(n):
     num_1 = main_window.lineEdit.text()
@@ -192,4 +267,4 @@ main_window.Button_fac.clicked.connect(partial(fac))
 main_window.Button_mod.clicked.connect(partial(mod))
 main_window.Button_eql.clicked.connect(partial(eql, op))
 
-app.exec_() 
+app.exec_()
