@@ -3,6 +3,10 @@ from functools import partial
 from PySide6.QtWidgets import QApplication
 from PySide6.QtUiTools import QUiLoader
 
+op = None
+num_1 = 0
+num_2 = 0
+
 def stylesheet():
     main_window.Button_0.setStyleSheet(''' QPushButton {font: 700 italic 14pt "Segoe UI";background-color:rgb(0, 85, 0);color: rgb(255, 255, 255);}''')
     main_window.Button_1.setStyleSheet(''' QPushButton {font: 700 italic 14pt "Segoe UI";background-color:rgb(0, 85, 0);color: rgb(255, 255, 255);}''')
@@ -20,135 +24,136 @@ def stylesheet():
     main_window.Button_tan.setStyleSheet(''' QPushButton {font:  700 italic 14pt "Segoe UI";;background-color:  rgb(48, 124, 0);color: rgb(6, 6, 6);}''')
     main_window.Button_cot.setStyleSheet(''' QPushButton {font:  700 italic 14pt "Segoe UI";;background-color:  rgb(48, 124, 0);color: rgb(6, 6, 6);}''')
     main_window.Button_abs.setStyleSheet(''' QPushButton {font:  700 italic 14pt "Segoe UI";;background-color:  rgb(48, 124, 0);color: rgb(6, 6, 6);}''')
+    main_window.Button_fac.setStyleSheet(''' QPushButton {font:  700 italic 14pt "Segoe UI";;background-color:  rgb(48, 124, 0);color: rgb(6, 6, 6);}''')
+    main_window.Button_mod.setStyleSheet(''' QPushButton {font:  700 italic 14pt "Segoe UI";;background-color:  rgb(48, 124, 0);color: rgb(6, 6, 6);}''')
+    main_window.Button_sqrt.setStyleSheet(''' QPushButton {font:  700 italic 14pt "Segoe UI";;background-color:  rgb(48, 124, 0);color: rgb(6, 6, 6);}''')
 
     main_window.Button_sum.setStyleSheet(''' QPushButton {font:  700 italic 14pt "Segoe UI";background-color: rgb(0, 170, 127);color:  rgb(6, 6, 6);}''')
-    main_window.Button_sub.setStyleSheet(''' QPushButton {font:  700 italic 14pt "Segoe UI";background-color: rgb(0, 170, 127);color:  rgb(6, 6, 6);}''')
+    main_window.Button_min.setStyleSheet(''' QPushButton {font:  700 italic 14pt "Segoe UI";background-color: rgb(0, 170, 127);color:  rgb(6, 6, 6);}''')
     main_window.Button_div.setStyleSheet(''' QPushButton {font:  700 italic 14pt "Segoe UI";background-color: rgb(0, 170, 127);color:  rgb(6, 6, 6);}''')
     main_window.Button_eql.setStyleSheet(''' QPushButton {font:  700 italic 14pt "Segoe UI";background-color: rgb(0, 170, 127);color:  rgb(6, 6, 6);}''')
     main_window.Button_mul.setStyleSheet(''' QPushButton {font:  700 italic 14pt "Segoe UI";background-color: rgb(0, 170, 127);color:  rgb(6, 6, 6);}''')
     main_window.Button_dot.setStyleSheet(''' QPushButton {font:  700 italic 14pt "Segoe UI";background-color: rgb(0, 170, 127);color:  rgb(6, 6, 6);}''')
+    main_window.Button_pow.setStyleSheet(''' QPushButton {font:  700 italic 14pt "Segoe UI";background-color: rgb(0, 170, 127);color:  rgb(6, 6, 6);}''')
+    main_window.Button_pi.setStyleSheet(''' QPushButton {font:  700 italic 14pt "Segoe UI";background-color: rgb(0, 170, 127);color:  rgb(6, 6, 6);}''')
 
 def num(n):
-    num_1 = main_window.line_edit.text()
-    num_2 = num_1 + n 
-    main_window.line_edit.setText(num_2)
+    num_1 = main_window.lineEdit.text()
+    num_2 = num_1 + n
+    main_window.lineEdit.setText(num_2)
        
 def cos():
-    num_1 = main_window.line_edit.text()
+    num_1 = main_window.lineEdit.text()
     num_2 = float(num_1)
     num_3 = math.radians(num_2)
     result = math.cos(num_3)
-    main_window.line_edit.setText(str(result))
+    main_window.lineEdit.setText(str(result))
     
 def cot():
-    num_1 = main_window.line_edit.text()
+    num_1 = main_window.lineEdit.text()
     num_2 = float(num_1)
     num_3 = math.radians(num_2)
     result = math.atan(num_3)
-    main_window.line_edit.setText(str(result))
+    main_window.lineEdit.setText(str(result))
 
 def log():
-    num_1 = main_window.line_edit()
+    num_1 = main_window.lineEdit.text()
     num_2 = float(num_1)
     num_3 = math.radians(num_2)
     result = math.log(num_3)
-    main_window.line_edit.setText(str(result))
+    main_window.lineEdit.setText(str(result))
     
 def tan():
-    num_1 = main_window.line_edit()
+    num_1 = main_window.lineEdit.text()
     num_2 = float(num_1)
     num_3 = math.radians(num_2)
     result = math.tan(num_3)
-    main_window.line_edit.setText(str(result))
+    main_window.lineEdit.setText(str(result))
     
 def AC():
-    main_window.line_edit.setText("")
+    main_window.lineEdit.setText("")
     
 def C():
-    num_1 = main_window.line_edit()
+    num_1 = main_window.lineEdit.text()
     num_2 = num_1[:-1]
-    main_window.line_edit.setText(num_2)
+    main_window.lineEdit.setText(num_2)
     
 def sqrt():
-    num_1 = main_window.line_edit.text()
+    num_1 = main_window.lineEdit.text()
     num_2 = float(num_1)
-    result = math.sqrt(num_2)
-    main_window.line_edit.setText(str(result))
+    num_3 = math.radians(num_2)
+    result = math.sqrt(num_3)
+    main_window.lineEdit.setText(str(result))
     
 def abs():
-    num_1 = main_window.text_line.text()
+    num_1 = main_window.lineEdit.text()
     num_2 = float(num_1)
     result = abs(num_2)
-    main_window.text_line.setText(str(result))
+    main_window.lineEdit.setText(str(result))
+    
+def pow():
+    num_1 = main_window.lineEdit.text()
+    num_2 = float(num_1)
+    num_3 = num_2 ** 2
+    main_window.lineEdit.setText(str(num_3))
+    
+def pi():
+    num_1 = main_window.lineEdit.text()
+    main_window.lineEdit.setText(num_1 + "3.14")
 
+def fac():
+    num_1 = main_window.lineEdit.text()
+    num_2 = str(num_1)
+    num_3 = math.radians(num_2)
+    result = math.factorial(num_3)
+    main_window.lineEdit.setText(str(result))
+    
+def mod():
+    num_1 = main_window.lineEdit.text()
+    num_2 = float(num_1)
+    result = math.modf(num_2)
+    main_window.lineEdit.setText(str(result))
+    
 def dot():
-    num = main_window.line_edit()
+    num = main_window.lineEdit.text()
     if "." not in num:
-        main_window.line_edit.setText(main_window.line_edit.text() + ".")
-
-def sum():
-    global op , num_1
-    op = "+"
-    num = main_window.line_edit.text()
-    num_1 = float(num)
-    main_window.line_edit.setText("")
-    
-def sub(): 
-    global op , num_1
-    op = "-"
-    num = main_window.line_edit.text()
-    num_1 = float(num)
-    main_window.line_edit.setText("")
-    
-def mul():
-    global op , num_1
-    op = "*"
-    num = main_window.line_edit.text()
-    num_1 = float(num)
-    main_window.line_edit.setText("")
-
-def div():
-    global op , num_1
-    op = "/"
-    num = main_window.line_edit.text()
-    num_1 = float(num)
-    main_window.line_edit.setText("")
-    
-def eql():
+        main_window.lineEdit.setText(main_window.line_edit.text() + ".")
+        
+def eql(op):
     if op == "+":
-        eq_sum()
+        eql_sum()
     elif op == "-":
-        eq_sub()
+        eql_sub()
     elif op == "*":
-        eq_mul()
+        eql_mul()  
     elif op == "/":
-        eq_div()
-def eq_sum():
-    num_2 = float(main_window.line_edit.text())
-    main_window.line_edit.setText("")
-    result = num_1 + num_2
-    main_window.line_edit.setText(str(result))
-def eq_sub():
+        eql_div()
+
+def eql_sum():
     num_2 = float(main_window.lineEdit.text())
-    main_window.line_edit.setText("")
+    main_window.lineEdit.setText("")
+    result = num_1 + num_2
+    main_window.lineEdit.setText(str(result))
+def eql_sub():
+    num_2 = float(main_window.lineEdit.text())
+    main_window.lineEdit.setText("")
     result = num_1 - num_2
-    main_window.line_edit.setText(str(result))
+    main_window.lineEdit.setText(str(result))
 
-def eq_mul():
-    num_2 = float(main_window.line_edit.text())
-    main_window.line_edit.setText("")
+def eql_mul():
+    num_2 = float(main_window.lineEdit.text())
+    main_window.lineEdit.setText("")
     result = num_1 * num_2
-    main_window.line_edit.setText(str(result))
+    main_window.lineEdit.setText(str(result))
 
-def eq_div():
+def eql_div():
     try:
-        num_2 = float(main_window.line_edit.text())
-        main_window.line_edit.setText("")
+        num_2 = float(main_window.lineEdit.text())
+        main_window.lineEdit.setText("")
         result = num_1 / num_2
-        main_window.line_edit.setText(str(result))
+        main_window.lineEdit.setText(str(result))
     except:
-        main_window.line_edit.setText("you can not divition by zero!")
-
+        main_window.lineEdit.setText("can not divition by zero!")
 
 app = QApplication([])
 loader = QUiLoader()
@@ -169,12 +174,11 @@ main_window.Button_8.clicked.connect(partial(num, "8"))
 main_window.Button_9.clicked.connect(partial(num, "9"))
 main_window.Button_dot.clicked.connect(partial(num, "."))
 
-
 main_window.Button_C.clicked.connect(C)
 main_window.Button_AC.clicked.connect(AC)
 
 main_window.Button_sum.clicked.connect(partial(num, "+"))
-main_window.Button_sub.clicked.connect(partial(num, "-"))
+main_window.Button_min.clicked.connect(partial(num, "-"))
 main_window.Button_mul.clicked.connect(partial(num, "*"))
 main_window.Button_div.clicked.connect(partial(num, "/"))
 main_window.Button_sqrt.clicked.connect(partial(sqrt))
@@ -182,6 +186,10 @@ main_window.Button_tan.clicked.connect(partial(tan))
 main_window.Button_cos.clicked.connect(partial(cos))
 main_window.Button_cot.clicked.connect(partial(cot))
 main_window.Button_abs.clicked.connect(partial(abs))
-main_window.Button_eql.clicked.connect(partial(eql))
+main_window.Button_pow.clicked.connect(partial(pow))
+main_window.Button_pi.clicked.connect(partial(pi))
+main_window.Button_fac.clicked.connect(partial(fac))
+main_window.Button_mod.clicked.connect(partial(mod))
+main_window.Button_eql.clicked.connect(partial(eql, op))
 
-app.exec_()
+app.exec_() 
