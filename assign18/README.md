@@ -1,4 +1,4 @@
-<span style="font-size: 30px;𝑺𝒖𝒏𝒏𝒚 𝑭𝒐𝒓𝒆𝒔𝒕"</span>
+𝑺𝒖𝒏𝒏𝒚 𝑭𝒐𝒓𝒆𝒔𝒕
 
 ![Screenshot 2023-08-09 100746](https://github.com/noriakeivanfard/pythonClass/assets/137643989/f6281fe4-e7a4-4d1c-a4cc-6d58a53343fe)
 
